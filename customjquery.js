@@ -20,12 +20,27 @@ $(document).ready(() => {
                     $("nav").css('background-color', 'white');
                     $("nav a").css('color', 'black');
                     
+                    //swap from black to grey
+                    $('nav a').hover(function () {
+                      $(this).css('color', 'grey');
+                    },
+                    function () {
+                      $(this).css('color', 'black');
+                    });
+
                    
                 } else if (scroll_pos <= 210 ){
                  $(".menuicon").attr('src', 'images/menuwhite.jpg');
                   $("nav").css('background-color', 'black');
-                  $("nav a").css('color', 'white');
-               
+                  $("nav a").css('color', 'grey');
+                  
+                  //swap from grey to white
+                  $('nav a').hover(function () {
+                    $(this).css('color', 'white');
+                  },
+                  function () {
+                    $(this).css('color', 'grey');
+                  });
                 } 
             
         
@@ -33,12 +48,7 @@ $(document).ready(() => {
 
 
 //hover over text in navigation bar change scolour from grey to white
-$('nav-link').hover(function () {
-  $(this).css('color', 'white');
-},
-function () {
-  $(this).css('color', 'grey');
-});
+
 
 
  
