@@ -4,11 +4,13 @@ $(document).ready(() => {
   //side menu visible and non vivible  
   var menu = $('#sidemenu');
   if (menu.hasClass("visible")) {
-     menu.removeClass('visible').animate({'margin-left':'-500px'});
-     $('nav, #mycarousel, #testparagraph,#footerCustom').animate({'margin-left':'0px'});
-   
-  } else {menu.addClass('visible').animate({'margin-left':'0px'});
-  $('nav, #mycarousel, #testparagraph,#footerCustom').animate({'margin-left':'500px'});
+     menu.removeClass('visible').animate({'left':'350px'});
+     $('nav, #mycarousel,#footerCustom').animate({'margin-right':'0px'});
+     $('#testparagraph').animate({'margin-right':'602px'});
+  } else {menu.addClass('visible').animate({'left':'-350px'});
+  $('nav, #mycarousel,#footerCustom').animate({'margin-right':'350px'});
+  $('#testparagraph').animate({'margin-right':'750px'});
+
 }   
  });
 
@@ -27,6 +29,8 @@ $(document).ready(() => {
                     function () {
                       $(this).css('color', 'black');
                     });
+          //swapping menu icon ED from white to orange as you scroll down
+                    $('#icon').attr('src', 'images/orangelabel.png');
 
                    
                 } else if (scroll_pos <= 210 ){
@@ -41,6 +45,8 @@ $(document).ready(() => {
                   function () {
                     $(this).css('color', 'grey');
                   });
+                  //swapping menu icon ED from orange to white as you scroll down
+                  $('#icon').attr('src', 'images/whitelabel.png');
                 } 
             
         
