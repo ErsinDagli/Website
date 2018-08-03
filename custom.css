@@ -1,0 +1,215 @@
+.carousel-inner {
+    height: 700px
+  }
+
+html, body{
+  height: 100%
+}  
+
+a{
+  color: white;
+}
+
+ul {
+  list-style: none;
+ }
+
+.navbar {
+    background-color: black;
+    color: white;
+  }
+
+ #imageHeight {
+   
+    height: 500px;
+    width: 100%;
+    object-fit: cover; 
+
+ }
+
+ .footerCustom {
+    
+    color: white;
+    font-size: small;
+    background-color:#333333;
+    text-align: left;
+    padding-left: 25px;
+    height: 100px;
+  }
+
+  .navbar-icons{
+    background-color:#333333;
+    margin-right: 0px;
+  }
+
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 400px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 700px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 700px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 700px;
+    }
+  }
+
+
+body {
+
+
+    font-family: Cambria, Cochin, Georgia;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+
+
+
+html{
+  height:100%;
+}
+body{
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+#sidemenu { 
+  background: white; 
+  width: 350px; 
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  margin-right: -350px;
+  overflow-y: scroll;
+  overflow-x: hidden; 
+  padding: 50px;
+  border-left: .2px solid lightgray;
+  
+ 
+}
+
+.fixed-top.scrolled {
+  background-color:black ;
+  transition: background-color 200ms linear;
+  
+}
+
+
+
+
+.menuicon {
+  width: 25px;
+  height: 25px;
+  transition: 200ms;
+  
+}
+
+
+
+img#icon {
+height: 30px;
+width: 30px;
+border-radius: 50%;
+
+}
+
+.background1{
+
+  background-color: white;
+  height: 600px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding-top: 30px;
+  
+  
+}
+
+.background2{
+
+background-color:#f2f2f2;
+height: 600px;
+text-overflow: ellipsis;
+overflow: hidden;
+word-wrap: break-word;
+padding-top: 30px;
+
+
+}
+
+.paragraph{
+  font-family: calibri(body);
+  font-size:22px;
+  color: #595959;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+
+
+.sidebarheader{
+
+color: #333333;
+font-size: 18px;
+
+text-align: left;
+padding: 10px;
+
+}
+
+
+.btn-space{
+  margin: 5px;
+  opacity: 0.5; 
+  
+}
+
+.main-buttons{
+margin-bottom:50px;
+margin-top: 50px;
+
+}
+
+
+.child-footer{
+  height: 100%;
+}
+
+#sidenavbar a{
+
+  color: #333333;
+  padding: 5px;
+}
+
+
+
+
+
+
+
